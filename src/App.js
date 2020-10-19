@@ -4,7 +4,7 @@ import About from './partials/About'
 import Card from './partials/Card'
 import Footer from './partials/Footer'
 import Skills from './partials/Skills'
-
+//comment
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
