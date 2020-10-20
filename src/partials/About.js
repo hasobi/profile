@@ -7,7 +7,7 @@ function About() {
         My Background
       </p>
       <p className="text-base text-left md:text-center text-gray-600 leading-relaxed mt-4">
-        Hello my name is Sobi, i'm DevOps Engineer from Indonesia, i have expereience in Linux, Sys Admin, Docker, Kubernetes and also CI/CD.
+        Hello my name is Sobi, i'm DevOps Engineer from Indonesia, i have experience in Linux, Sys Admin, Docker, Kubernetes and also CI/CD.
         My previous research involved Cybersecurity and currently i'm working with Data Science project!
         Kindly send me message if you have interesting project.
       </p>
