@@ -2,7 +2,7 @@ import React from 'react'
 import profile from '../images/profile.png'
 
 import { FaGithub } from 'react-icons/fa';
-import { FaDribbble } from 'react-icons/fa';
+// import { FaDribbble } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 
@@ -26,10 +26,7 @@ function Card() {
               <FaGithub />
               <span class="sr-only">Github</span>
             </a>
-            {/* <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300" href="https://github.com/BraydenTW">
-              <FaDribbble />
-              <span class="sr-only">Dribble</span>
-            </a> */}
+           
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300" href="https://twitter.com/hasobi">
               <FaTwitter />
               <span class="sr-only">Twitter</span>  
