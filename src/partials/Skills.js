@@ -1,10 +1,9 @@
 import React from 'react'
 
-// import { FaPalette } from 'react-icons/fa';
-import { FaReact } from 'react-icons/fa';
 import { FaCode } from 'react-icons/fa';
 import { DiAws } from "react-icons/di";
-import { DiDocker } from "react-icons/di";
+import { SiDocker } from "react-icons/si";
+import { SiKubernetes,SiPython } from "react-icons/si";
 
 function Skills() {
   return (
@@ -22,15 +21,21 @@ function Skills() {
         </p>
       </div>
       <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-        <FaReact className="text-4xl mx-auto inline-block" />
+        <SiDocker className="text-4xl mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
-          ReactJS
+          Docker
         </p>
       </div>
       <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-        <DiDocker className="text-4xl mx-auto inline-block" />
+        <SiKubernetes className="text-4xl mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
-          Docker
+          Kubernetes
+        </p>
+      </div>
+      <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
+        <SiPython className="text-4xl mx-auto inline-block" />
+        <p className="text-xl font-semibold mt-4">
+          Python
         </p>
       </div>
     </div>
