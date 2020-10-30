@@ -7,7 +7,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { GrMedium } from "react-icons/gr";
 import { GrLinkedin } from "react-icons/gr";
-
+//comment
 
 function Card() {
 
