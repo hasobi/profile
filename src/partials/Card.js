@@ -7,6 +7,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { GrMedium } from "react-icons/gr";
 import { GrLinkedin } from "react-icons/gr";
+import { SiDevDotTo } from "react-icons/si";
 //comment
 
 function Card() {
@@ -36,6 +37,10 @@ function Card() {
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://medium.com/@hasobi">
               <GrMedium />
               <span class="sr-only">Medium</span>  
+            </a>
+            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://dev.to/hasobi">
+              <SiDevDotTo />
+              <span class="sr-only">DevTo</span>  
             </a>
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://linkedin.com/in/hasobi">
               <GrLinkedin />
