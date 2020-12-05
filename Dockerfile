@@ -1,13 +1,20 @@
+# pull official base image
 FROM node:alpine
 
-WORKDIR /usr/src/app
+# set working directory
+WORKDIR /app
 
-COPY package.json yarn.lock ./
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-RUN yarn
+# install app dependencies
+COPY package.json ./
+COPY package-lock.json ./
+RUN yarn install --silent
+# RUN npm install react-scripts@3.4.1 -g --silent
 
-COPY . .
+# add app
+COPY . ./
 
-EXPOSE 3000
-
+# start app
 CMD ["yarn", "start"]
