@@ -42,7 +42,7 @@ function Card() {
               <SiDevDotTo />
               <span class="sr-only">DevTo</span>  
             </a>
-            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://linkedin.com/in/hasobi">
+            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://linkedin.com/in/hasobiroid">
               <GrLinkedin />
               <span class="sr-only">LinkedIn</span>  
             </a>
