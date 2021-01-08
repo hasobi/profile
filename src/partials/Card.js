@@ -32,23 +32,23 @@ function Card() {
             </a>
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300" href="https://twitter.com/hasobi">
               <FaTwitter />
-              <span class="sr-only">Twitter</span>  
+              <span class="sr-only">Twitter</span>
             </a>
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://medium.com/@hasobi">
               <GrMedium />
-              <span class="sr-only">Medium</span>  
+              <span class="sr-only">Medium</span>
             </a>
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://dev.to/hasobi">
               <SiDevDotTo />
-              <span class="sr-only">DevTo</span>  
+              <span class="sr-only">DevTo</span>
             </a>
-            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://linkedin.com/in/hasobi">
+            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300" href="https://linkedin.com/in/hasobiroid">
               <GrLinkedin />
-              <span class="sr-only">LinkedIn</span>  
+              <span class="sr-only">LinkedIn</span>
             </a>
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300" href="mailto:hasobi.works@gmail.com">
               <FaRegEnvelope />
-              <span class="sr-only">Email</span>  
+              <span class="sr-only">Email</span>
             </a>
           </div>
         </div>
